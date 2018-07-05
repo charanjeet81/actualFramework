@@ -1,0 +1,12 @@
+68.99.123.160 dark.cox.com coxwirelessishere.com phoenix.cox.net test.cox.com www.cox.com
+68.99.123.182 media-test.cox.com media.cox.com #Test
+68.99.123.209 test-store.cox.com store.cox.com
+68.99.123.208 test-ts-stg-store.cox.com ts-stg-store.cox.com #Test preview staging dark silo
+68.99.123.207 test-ts-prv-store.cox.com ts-prv-store.cox.com #Test preview dark silo
+68.99.123.170 framework.cox.com images.cox.com intercept.cox.com framework.cox.net images.cox.net framework.coxbusiness.com images.coxbusiness.com
+68.99.123.208 test-ts-stg-store.cox.com ts-stg-store.cox.com #Test preview staging dark silo
+68.99.123.209 test-store.cox.com store.cox.com #Test production Dark silo
+72.214.114.175 myadmin.qa3.coxbusiness.com
+70.169.176.193 myaccount.qa3.coxbusiness.com
+70.167.106.171 qa3sbwvasb0301-oamp     
+70.167.106.70 qa3sbwvasb0301  qa3sbwvasb0301-service  qa3sbwvasb0301-service.lkhnlab.cox.net qa3sbwvasb0301.lkhnlab.cox.net

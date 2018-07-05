@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <Body>
+    <createDisconnectAccountWorkOrder xmlns="http://webservices.cox.com/Cox.Services.Icoms.CompositeServices">
+      <requestHeader xmlns="">
+        <clientIdentifier>webserviceuser</clientIdentifier>
+      </requestHeader>
+      <disconnectAccountInfo xmlns="">
+        <SiteID>$SiteID$</SiteID>
+        <AccountNumber9>$AccountNumber$</AccountNumber9>
+        <DisconnectReasonCode>P7</DisconnectReasonCode>
+        <ScheduleType>NOSCHEDULE</ScheduleType>
+      </disconnectAccountInfo>
+    </createDisconnectAccountWorkOrder>
+  </Body>
+</Envelope>
+

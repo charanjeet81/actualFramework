@@ -1,0 +1,25 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://webservices.cox.com/Cox.Services.Icoms.CompositeServices/pub/services/workOrder/ServiceChangeWorkOrder" xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:createServiceCodeChangeWorkOrder xmlns="http://webservices.cox.com/Cox.Services.Icoms.CompositeServices/pub/services/workOrder/ServiceChangeWorkOrder">
+         <requestHeader xmlns="">
+            
+            <clientIdentifier>fsmobilityuser</clientIdentifier>
+           
+         </requestHeader>
+         <ServiceChangeWorkOrder xmlns="">
+            <SiteId>$SiteID$</SiteId>
+            <AccountNumber9>$AccountNumber$</AccountNumber9>
+            <Callcode>5</Callcode>
+            <WorkOrderNumber>$WorkOrderNumber$</WorkOrderNumber>
+            <SalesmanNumber>99999</SalesmanNumber>
+            <ScheduleType>OFFICEONLY</ScheduleType>
+                        
+            $<ServiceInfo>$
+               
+                  
+
+         </ServiceChangeWorkOrder>
+      </ser:createServiceCodeChangeWorkOrder>
+   </soapenv:Body>
+</soapenv:Envelope>

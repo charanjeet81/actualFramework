@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cox="http://webservices.cox.com/Cox.Services.Icoms.CompositeServices">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cox:retrieveWorkOrder>
+         <requestHeader>
+            <clientIdentifier>webserviceuser</clientIdentifier>
+         </requestHeader>
+         <RetrieveWorkOrder>
+            <SiteId>$SiteID$</SiteId>
+            <WorkOrderNumber>$WorkOrder$</WorkOrderNumber>
+         </RetrieveWorkOrder>
+      </cox:retrieveWorkOrder>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,21 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+<Header>
+  <wsse:Security xmlns:wsse="http://schemas.xmlsoap.org/ws/2002/07/secext" xmlns:wsu="http://schemas.xmlsoap.org/ws/2002/07/utility">
+   <wsse:UsernameToken>
+    <wsse:Username>webserviceuser</wsse:Username>
+    <wsse:Password Type="wsse:PasswordText">test</wsse:Password>
+    <wsse:Nonce>9GicjrpmlnewtCa8Lon29KDX+fA=</wsse:Nonce>
+    <wsu:Created>2013-09-25T15:43:09Z</wsu:Created>
+   </wsse:UsernameToken>
+  </wsse:Security>
+</Header>
+    <Body>
+    <RescheduleWorkOrder xmlns="http://webservices.cox.com/WorkOrderUpdate">
+      <siteID>$SiteID$</siteID>
+                  <accountNumber9>$AccountNumber$</accountNumber9>
+                  <workOrderNumber>$WorkOrder$</workOrderNumber>
+      <newDate>$ScheduleDate$</newDate>
+                  <timeSlot>05</timeSlot>
+    </RescheduleWorkOrder>
+  </Body>
+</Envelope>

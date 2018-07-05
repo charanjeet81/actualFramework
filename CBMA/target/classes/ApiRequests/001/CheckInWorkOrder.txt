@@ -1,0 +1,23 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wor="http://webservices.cox.com/WorkOrderUpdate">
+   <soapenv:Header>
+      <wsse:Security xmlns:wsse="http://schemas.xmlsoap.org/ws/2002/07/secext" xmlns:wsu="http://schemas.xmlsoap.org/ws/2002/07/utility">
+         <wsse:UsernameToken>
+            <wsse:Username>webserviceuser</wsse:Username>
+            <wsse:Password Type="wsse:PasswordText">test</wsse:Password>
+            <wsse:Nonce>9GicjrpmlnewtCa8Lon29KDX+fA=</wsse:Nonce>
+            <wsu:Created>2016-04-26T15:43:09Z</wsu:Created>
+         </wsse:UsernameToken>
+      </wsse:Security>
+   </soapenv:Header>
+ <soapenv:Body>
+      <wor:CheckInWorkOrder>
+         <wor:siteID>$SiteID$</wor:siteID>
+         <wor:workOrderNumber>$WorkOrder$</wor:workOrderNumber>
+         <wor:techNumber>99999</wor:techNumber>
+         <wor:primaryFindingCode>98</wor:primaryFindingCode>
+         <wor:primarySolutionCode>70</wor:primarySolutionCode>
+         <wor:completionTime>1</wor:completionTime>
+         <wor:arrivalTime>1</wor:arrivalTime>
+      </wor:CheckInWorkOrder>
+   </soapenv:Body>
+</soapenv:Envelope>

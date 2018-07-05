@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke" parallel="classes" thread-count="3" configfailurepolicy="continue">
+
+		<test name="Test-Chrome" preserve-order="true">
+			<parameter name="browser" value="Chrome"></parameter>
+			<classes>
+<!-- 				<class name="testscripts.SMOKE.SMOKE_CBMA_DTW_Push_1627742" />  -->
+<!-- 				<class name="testscripts.SMOKE.SMOKE_CBMA_Profile_Creation_Password_Reset_1519878" />  -->
+                <class name="testscripts.SMOKE.SMOKE_CBMA_DTW_Push_Onboarding_1641529" /> 
+                <class name="testscripts.SMOKE.SMOKE_CBMA_Profile_Creation_Password_Reset_Onboarding_1641530" />
+			    <class name="testscripts.SMOKE.SMOKE_CBMA_BillPay_Flow_1544515" /> 
+				<class name="testscripts.SMOKE.SMOKE_CBMA_CBOT_Ticket_Creation_N_Search_1470267" /> 
+				<class name="testscripts.SMOKE.SMOKE_CBMA_CBVM_Validation_1479201" /> 
+                
+			</classes>
+		</test> 
+
+<!-- 		 <test name="Test-Firefox" parallel="classes" thread-count="1" preserve-order="true"> -->
+<!-- 			<parameter name="browser" value="Firefox"></parameter> -->
+<!-- 			<classes> -->
+<!-- 				<class name="testscripts.SMOKE.SMOKE_CBMA_CBOT_Ticket_Creation_N_Search_1470267" /> -->
+<!-- 				<class name="testscripts.SMOKE.SMOKE_CBMA_BillPay_Flow_1544515" />  -->
+<!-- 				<class name="testscripts.SMOKE.SMOKE_CBMA_DTW_Push_1627742" /> -->
+<!-- 				<class name="testscripts.SMOKE.SMOKE_CBMA_Profile_Creation_Password_Reset_1519878" />   -->
+<!-- 				<class name="testscripts.SMOKE.SMOKE_CBMA_CBVM_Validation_1479201" /> -->
+				
+<!-- 			</classes> -->
+<!-- 		</test> -->
+
+		<!-- <test name="Test-IE">
+			<parameter name="browser" value="InternetExplorer"></parameter>
+			<classes>
+				<class name="testscripts.SMOKE.SMOKE_CBMA_BillPay_Flow_1544515" /> 
+				<class name="testscripts.SMOKE.SMOKE_CBMA_CBOT_Ticket_Creation_N_Search_1470267" />
+				<class name="testscripts.SMOKE.SMOKE_CBMA_CBVM_Validation_1479201" /> 
+				<class name="testscripts.SMOKE.SMOKE_CBMA_Profile_Creation_Password_Reset_1519878" />  
+				<class name="testscripts.SMOKE.SMOKE_CBMA_DTW_Push_1627742" />
+			</classes>
+		</test> -->
+	</suite> <!-- Suite -->
+	
+	

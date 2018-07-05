@@ -1,0 +1,24 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+  <Body>
+    <createInstallServicesWorkOrder xmlns="http://webservices.cox.com/Cox.Services.Icoms.CompositeServices">
+      <requestHeader xmlns="">
+        <clientIdentifier>test</clientIdentifier>
+        <user>
+          <userName>MACINTRAMI</userName>
+          <password>MACINTRAMI</password>
+        </user>
+      </requestHeader>
+      <InstallServicesWorkOrder xmlns="">
+        <SiteId>$SiteID$</SiteId>
+        <AccountNumber9>$AccountNumber$</AccountNumber9>
+        <Callcode>90</Callcode>
+        <ScheduleType>OFFICEONLY</ScheduleType>
+        <UseExternalKey>Y</UseExternalKey>
+        <ByPassCreditCheck>Y</ByPassCreditCheck>
+        <Data>$<ServiceInfo>$<ExternalKey>Y</ExternalKey></Data>
+	    <Cable>$<CableServiceInfo>$<ExternalKey>Y</ExternalKey></Cable>
+	    <Telephone>$<TelephoneServiceInfo>$</Telephone> 	     
+     </InstallServicesWorkOrder>
+    </createInstallServicesWorkOrder>
+  </Body>
+</Envelope>

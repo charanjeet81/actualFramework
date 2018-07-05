@@ -1,0 +1,23 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cox="http://webservices.cox.com/Cox.Services.Icoms.CompositeServices" xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cox:addCustomer xmlns="http://webservices.cox.com/Cox.Services.Icoms.CompositeServices">
+         <requestHeader xmlns="">
+            <clientIdentifier>webserviceuser</clientIdentifier>
+            <user>
+               <userName>MACINTRAMI</userName>
+               <password>MACINTRAMI</password>
+            </user>
+         </requestHeader>
+         <AddCustomerInfo xmlns="">
+            <SiteId>$SiteID$</SiteId>
+            <HouseNumber>$HouseNumber$</HouseNumber>
+            <FirstName>Test</FirstName>
+            <LastName>Data111</LastName>
+	    <Pin>1212</Pin>		
+            <CustomerTypeCode>C</CustomerTypeCode>
+            <CustomerCategory>3</CustomerCategory>
+         </AddCustomerInfo>
+      </cox:addCustomer>
+   </soapenv:Body>
+</soapenv:Envelope>
